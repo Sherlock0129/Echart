@@ -1,18 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
+
 <head>
-    <meta charset="utf-8" />
-    <title>ECharts</title>
-    <!-- 引入ECharts文件 -->
-    <script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>
-    <!-- 引入自定义脚本 -->
-    <script src="./echartsExample.js" type="module"></script>
-    <script src="./de1.js" type="module"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMAP画图查看</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 50px;
+            margin-bottom: 10px; /* 调整标题底部外边距 */
+        }
+
+        h2 {
+            color: #666;
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 20px; /* 副标题底部外边距 */
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .chart-container {
+            width: 700px;
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+    </style>
+
 </head>
+
 <body>
-<!-- 为ECharts准备一个定义了宽高的DOM -->
-<div id="main" style="width: 700px;height:400px;"></div>
-<!-- 为第二个图表准备一个定义了宽高的DOM -->
-<div id="main2" style="width: 700px;height:400px;"></div>
+<h1>COMAP数据图</h1>
+<h2>航哥安姐带我飞</h2>
+<img class="emoji" src="./picture/poor_emoji.png" alt="可怜">
+<div class="button-container">
+    <button onclick="location.href='Q1.html'">第一问</button>
+    <button onclick="location.href='Q2.html'">第二问</button>
+    <!-- 添加表情包 -->
+
+</div>
+
 </body>
+
 </html>
