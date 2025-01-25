@@ -48,6 +48,12 @@ option = {
     },
     xAxis: [
         {
+            // x轴字体大小
+            axisLabel: {
+                fontSize: 26,
+                fontWeight: 'bold'
+
+            },
             type: 'category',
             boundaryGap: false,
             data: ['1980', '1990', '2000', '2010', '2020', '2025']
@@ -55,6 +61,11 @@ option = {
     ],
     yAxis: [
         {
+            axisLabel: {
+                fontSize: 26,
+                fontWeight: 'bold'
+
+            },
             type: 'value'
         }
     ],
