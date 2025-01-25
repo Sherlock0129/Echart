@@ -22,6 +22,15 @@ var formattedData = data.map(item => {
 });
 
 option = {
+    // 放大标题
+    title: {
+        text: 'Weighted Criteria for Crop Selection',
+        left: 'center',
+        top: '10%',
+        textStyle: {
+            fontSize: 24
+        }
+    },
     legend: {
         top: 'bottom'
     },
@@ -34,8 +43,20 @@ option = {
             saveAsImage: { show: true }
         }
     },
+    // 放大提示框的字体
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b} : {c}%'
+    },
     series: [
+
+
         {
+            // 放大·字体
+            label: {
+                fontSize: 24,
+                fontWeight: 'bold'
+            },
             name: 'Nightingale Chart',
             type: 'pie',
             radius: [50, 250],

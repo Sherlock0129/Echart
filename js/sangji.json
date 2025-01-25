@@ -1,0 +1,45 @@
+{
+  "nodes": [
+
+    {"id": "forest", "name": "初始森林生态系统", "value": 100},
+    {"id": "initial_farm", "name": "初始农业用地", "value": 0},
+    {"id": "mature_farm", "name": "成熟农业用地", "value": 0},
+
+    {"id": "forest_producers", "name": "森林生产者", "value": 50},
+    {"id": "forest_herbivores", "name": "森林食草动物", "value": 0},
+    {"id": "forest_carnivores", "name": "森林食肉动物", "value": 0},
+    {"id": "forest_decomposers", "name": "森林分解者", "value": 0},
+    {"id": "farm_producers", "name": "农田生产者", "value": 0},
+    {"id": "farm_herbivores", "name": "农田食草动物", "value": 0},
+    {"id": "farm_carnivores", "name": "农田食肉动物", "value": 0},
+    {"id": "farm_decomposers", "name": "农田分解者", "value": 0},
+
+    {"id": "herbicide_application", "name": "除草剂使用", "value": 0},
+    {"id": "bat_introduction", "name": "引入蝙蝠", "value": 0},
+    {"id": "organic_farming", "name": "有机农业", "value": 0}
+  ],
+  "links": [
+
+    {"source": "forest", "target": "initial_farm", "value": 100},
+    {"source": "forest_producers", "target": "farm_producers", "value": 50},
+    {"source": "forest_herbivores", "target": "farm_herbivores", "value": 30},
+    {"source": "forest_carnivores", "target": "farm_carnivores", "value": 10},
+    {"source": "forest_decomposers", "target": "farm_decomposers", "value": 10},
+
+    {"source": "herbicide_application", "target": "farm_producers", "value": 20},
+    {"source": "herbicide_application", "target": "farm_herbivores", "value": 15},
+    {"source": "herbicide_application", "target": "farm_carnivores", "value": 5},
+    {"source": "bat_introduction", "target": "farm_herbivores", "value": 10},
+    {"source": "bat_introduction", "target": "farm_carnivores", "value": 5},
+    {"source": "organic_farming", "target": "farm_producers", "value": 15},
+    {"source": "organic_farming", "target": "farm_herbivores", "value": 5},
+    {"source": "organic_farming", "target": "farm_carnivores", "value": 5},
+    {"source": "organic_farming", "target": "farm_decomposers", "value": 10},
+
+    {"source": "initial_farm", "target": "mature_farm", "value": 100},
+    {"source": "farm_producers", "target": "mature_farm", "value": 85},
+    {"source": "farm_herbivores", "target": "mature_farm", "value": 60},
+    {"source": "farm_carnivores", "target": "mature_farm", "value": 25},
+    {"source": "farm_decomposers", "target": "mature_farm", "value": 20}
+  ]
+}
