@@ -1,0 +1,1 @@
+var chartDom = document.getElementById('main8');

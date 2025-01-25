@@ -1,0 +1,378 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "name": "ForestEcosystem",
+      "symbolSize": 30,
+      "x": -200,
+      "y": 200,
+      "value": 50,
+      "category": 0
+    },
+    {
+      "id": "1",
+      "name": "Farmland",
+      "symbolSize": 25,
+      "x": 100,
+      "y": 250,
+      "value": 40,
+      "category": 1
+    },
+    {
+      "id": "2",
+      "name": "ClimateFactors",
+      "symbolSize": 20,
+      "x": -300,
+      "y": 300,
+      "value": 30,
+      "category": 2
+    },
+    {
+      "id": "3",
+      "name": "SoilQuality",
+      "symbolSize": 18,
+      "x": -150,
+      "y": 150,
+      "value": 27,
+      "category": 0
+    },
+    {
+      "id": "4",
+      "name": "AgriculturalPractices",
+      "symbolSize": 22,
+      "x": 150,
+      "y": 180,
+      "value": 35,
+      "category": 1
+    },
+    {
+      "id": "5",
+      "name": "Biodiversity",
+      "symbolSize": 20,
+      "x": -250,
+      "y": 100,
+      "value": 30,
+      "category": 0
+    },
+    {
+      "id": "6",
+      "name": "WaterResources",
+      "symbolSize": 18,
+      "x": -50,
+      "y": 350,
+      "value": 27,
+      "category": 2
+    },
+    {
+      "id": "7",
+      "name": "EconomicFactors",
+      "symbolSize": 22,
+      "x": 250,
+      "y": 100,
+      "value": 35,
+      "category": 3
+    },
+    {
+      "id": "8",
+      "name": "SustainableDevelopmentGoals",
+      "symbolSize": 25,
+      "x": 0,
+      "y": -100,
+      "value": 40,
+      "category": 4
+    },
+    {
+      "id": "9",
+      "name": "PolicyInterventions",
+      "symbolSize": 20,
+      "x": -100,
+      "y": -150,
+      "value": 30,
+      "category": 4
+    },
+    {
+      "id": "10",
+      "name": "ModelingFramework",
+      "symbolSize": 35,
+      "x": 0,
+      "y": 0,
+      "value": 55,
+      "category": 5
+    },
+    {
+      "id": "11",
+      "name": "TransitionRate",
+      "symbolSize": 15,
+      "x": 50,
+      "y": -200,
+      "value": 22,
+      "category": 1
+    },
+    {
+      "id": "12",
+      "name": "CarbonSequestration",
+      "symbolSize": 18,
+      "x": -220,
+      "y": -100,
+      "value": 27,
+      "category": 0
+    },
+    {
+      "id": "13",
+      "name": "NutrientCycle",
+      "symbolSize": 15,
+      "x": -50,
+      "y": -250,
+      "value": 22,
+      "category": 0
+    },
+    {
+      "id": "14",
+      "name": "EcosystemServices",
+      "symbolSize": 20,
+      "x": 200,
+      "y": -150,
+      "value": 30,
+      "category": 1
+    },
+    {
+      "id": "15",
+      "name": "FarmerKnowledge",
+      "symbolSize": 18,
+      "x": 300,
+      "y": -50,
+      "value": 27,
+      "category": 3
+    }
+  ],
+  "links": [
+    {
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "source": "0",
+      "target": "5"
+    },
+    {
+      "source": "0",
+      "target": "12"
+    },
+    {
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "source": "1",
+      "target": "7"
+    },
+    {
+      "source": "1",
+      "target": "11"
+    },
+    {
+      "source": "1",
+      "target": "14"
+    },
+    {
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "source": "2",
+      "target": "6"
+    },
+    {
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "source": "4",
+      "target": "11"
+    },
+    {
+      "source": "5",
+      "target": "0"
+    },
+    {
+      "source": "5",
+      "target": "1"
+    },
+    {
+      "source": "5",
+      "target": "12"
+    },
+    {
+      "source": "6",
+      "target": "0"
+    },
+    {
+      "source": "6",
+      "target": "1"
+    },
+    {
+      "source": "6",
+      "target": "4"
+    },
+    {
+      "source": "7",
+      "target": "1"
+    },
+    {
+      "source": "7",
+      "target": "4"
+    },
+    {
+      "source": "7",
+      "target": "15"
+    },
+    {
+      "source": "8",
+      "target": "1"
+    },
+    {
+      "source": "8",
+      "target": "4"
+    },
+    {
+      "source": "8",
+      "target": "9"
+    },
+    {
+      "source": "9",
+      "target": "1"
+    },
+    {
+      "source": "9",
+      "target": "4"
+    },
+    {
+      "source": "9",
+      "target": "7"
+    },
+    {
+      "source": "10",
+      "target": "0"
+    },
+    {
+      "source": "10",
+      "target": "1"
+    },
+    {
+      "source": "10",
+      "target": "2"
+    },
+    {
+      "source": "10",
+      "target": "4"
+    },
+    {
+      "source": "10",
+      "target": "7"
+    },
+    {
+      "source": "10",
+      "target": "8"
+    },
+    {
+      "source": "11",
+      "target": "0"
+    },
+    {
+      "source": "11",
+      "target": "1"
+    },
+    {
+      "source": "12",
+      "target": "0"
+    },
+    {
+      "source": "12",
+      "target": "1"
+    },
+    {
+      "source": "12",
+      "target": "8"
+    },
+    {
+      "source": "13",
+      "target": "0"
+    },
+    {
+      "source": "13",
+      "target": "1"
+    },
+    {
+      "source": "13",
+      "target": "3"
+    },
+    {
+      "source": "14",
+      "target": "0"
+    },
+    {
+      "source": "14",
+      "target": "1"
+    },
+    {
+      "source": "14",
+      "target": "8"
+    },
+    {
+      "source": "15",
+      "target": "1"
+    },
+    {
+      "source": "15",
+      "target": "4"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Forest - related"
+    },
+    {
+      "name": "Farm - related"
+    },
+    {
+      "name": "EnvironmentalFactors"
+    },
+    {
+      "name": "Socio - economicFactors"
+    },
+    {
+      "name": "SustainabilityGoals&Policy"
+    },
+    {
+      "name": "ModelingAspects"
+    }
+  ]
+}

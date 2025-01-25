@@ -6,14 +6,16 @@ var option;
 
 // 代表不同的农业实践阶段，如森林初始阶段、农业过渡阶段、成熟农业阶段等
 const agriculturalStages = [
-    'Initial Forest Stage', 'Early Agricultural Transition', 'Mid - Agricultural Transition',
-    'Late Agricultural Transition', 'Developing Farmland', 'Mature Farmland', 'Sustainable Farmland'
+    'Initial \nForest ', 'Early \nAgricultural ', 'Mid - Agricultural',
+    'Late \nAgricultural ', 'Developing \nFarmland', 'Mature \nFarmland', 'Sustainable \nFarmland'
 ];
 
 // 代表不同的生态系统指标，如生产者数量、食草动物数量、食肉动物数量等
 const ecosystemIndicators = [
-    'Producer Quantity', 'Herbivore Quantity', 'Carnivore Quantity', 'Decomposer Quantity',
-    'Soil Nutrient Level', 'Crop Yield', 'Biodiversity Index'
+    '12a', '1a', '2a', '3a', '4a', '5a', '6a',
+    '7a', '8a', '9a','10a','11a',
+    '12p', '1p', '2p', '3p', '4p', '5p',
+    '6p', '7p', '8p', '9p', '10p', '11p'
 ];
 
 // 模拟的数据，格式为 [农业实践阶段索引, 生态系统指标索引, 指标值]
