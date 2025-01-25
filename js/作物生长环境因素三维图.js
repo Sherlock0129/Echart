@@ -53,15 +53,41 @@ option = {
     },
     xAxis3D: {
         type: 'category',
-        data: soilFertility
+        // 调整字体大小
+        axisLabel: {
+            fontSize: 16
+        },
+
+        data: soilFertility,
+        nameTextStyle: {
+            fontSize: 18,
+            fontWeight: 'bold'
+        },
+        name: 'Soil fertility'
     },
     yAxis3D: {
+        axisLabel: {
+            fontSize: 16
+        },
         type: 'category',
         data: pestNumbers.map(String),
+        //加粗name
+        nameTextStyle: {
+            fontSize: 18,
+            fontWeight: 'bold'
+        },
+
         name: 'Number of pests per square meter'
     },
     zAxis3D: {
+        axisLabel: {
+            fontSize: 16
+        },
         type: 'value',
+        nameTextStyle: {
+            fontSize: 18,
+            fontWeight: 'bold'
+        },
         name: 'Crop growth rate'
     },
     grid3D: {
